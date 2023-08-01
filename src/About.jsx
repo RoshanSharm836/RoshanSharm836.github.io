@@ -1,6 +1,7 @@
 import "./App.css";
 import pdf from "./resume.pdf";
 import Heading from "./Heading";
+import Social from "./Social";
 
 function About(props) {
   return (
@@ -18,6 +19,7 @@ Your browser does not support the video tag.
           Applications. Passionate About Coding And Strongly Interested In
           Working In A Product-Based Company.
         </p>
+        <Social />
         <div className="about-box">
           <button className="home-btm" id="resume-button-2">
             <a href={pdf} download="roshan-resume" id="resume-link-2">

@@ -7,6 +7,34 @@ function Project() {
       <Heading title="Project" />
       <div className="Project" id="projects">
         <div>
+          {/* e-commerce */}
+          <Singleproject
+            name={"e-commerce-demo"}
+            ProjectLink={"https://zagnow-roshan.netlify.app/"}
+            ProjectImage={"./e_commerce.png"}
+            githubLink={"https://github.com/Roshanrocked/zagnow"}
+            discrip={
+              "It is an e-commerce website where users can select item form the website and buy.It has 3 part 1st is e_commerce, 2nd is form 3th is dashboard. "
+            }
+            techstack={[
+              "React",
+              "Html",
+              "CSS",
+              "JavaScript",
+              "Chart.js",
+              "Tailwindcss",
+            ]}
+            features={[
+              "Landing Page",
+              "SingleItem page",
+              "Cart page",
+              "Dashboard page",
+              "Form page",
+              "Filters",
+              "Pagination",
+              "Responsiveness",
+            ]}
+          />
           {/* pokedex */}
           <Singleproject
             name={"pokedex-demo"}
@@ -14,7 +42,7 @@ function Project() {
             ProjectImage={"./pokemon.png"}
             githubLink={"https://github.com/Roshanrocked/pokemon"}
             discrip={
-              "It is a website that show all pokemons with all deatails about it. It have many features and easy to use"
+              "It is a website that shows all Pokemons with all details about them. It has many features and is easy to use."
             }
             techstack={["React", "Html", "CSS", "JavaScript"]}
             features={[

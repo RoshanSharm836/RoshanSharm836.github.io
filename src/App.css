@@ -421,6 +421,7 @@ button {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 2rem 0rem;
+  width: 98%;
 }
 .portfolio-edu .tenth {
   width: 27rem;
@@ -562,9 +563,9 @@ textarea {
   margin: auto;
 }
 .socialsite-icon > a {
-  width: 100px;
+  width: 60px;
   display: block;
-  height: 100px;
+  height: 60px;
   padding: 1rem;
   cursor: pointer;
 }
@@ -579,6 +580,15 @@ textarea {
   display: inline;
   width: 50px;
   height: 50px;
+}
+.what {
+  display: flex;
+
+  align-items: center;
+}
+.what img {
+  width: 25px;
+  height: 25px;
 }
 .hr1 {
   display: block;
