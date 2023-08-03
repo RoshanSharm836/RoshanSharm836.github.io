@@ -67,7 +67,7 @@ function Singleproject({
         <div className="project-items" style={{ margin: "20px 10px" }}>
           <div>
             <h3>Features</h3>
-            <ul>
+            <ul className="project_feature_list">
               {features.map((el) => {
                 return <li>{el}</li>;
               })}

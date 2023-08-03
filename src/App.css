@@ -82,6 +82,11 @@ button {
     font-size: 22px;
   }
 
+  /* contact */
+  .contact_lable {
+    font-size: 18px !important;
+  }
+
   /* .Skill */
   #Skill {
     grid-template-columns: repeat(2, 1fr);
@@ -96,6 +101,10 @@ button {
   .project-title {
     flex-direction: column;
     gap: 10px;
+  }
+  /* project */
+  .project_feature_list {
+    flex-direction: column;
   }
   /* contact section */
   .contact-info span {
@@ -357,7 +366,6 @@ button {
 .about-item {
   display: flex;
   width: 70%;
-  height: 75%;
   font-size: 1.7vw;
   margin: auto;
   flex-direction: column;
@@ -561,11 +569,12 @@ textarea {
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
+  justify-content: center;
 }
 .socialsite-icon > a {
-  width: 60px;
+  width: 100px;
   display: block;
-  height: 60px;
+  height: 100px;
   padding: 1rem;
   cursor: pointer;
 }
@@ -580,15 +589,6 @@ textarea {
   display: inline;
   width: 50px;
   height: 50px;
-}
-.what {
-  display: flex;
-
-  align-items: center;
-}
-.what img {
-  width: 25px;
-  height: 25px;
 }
 .hr1 {
   display: block;
@@ -658,6 +658,7 @@ ul {
   flex-wrap: wrap;
   gap: 15px;
 }
+
 .project-tech-stack {
   display: flex;
   flex-wrap: wrap;
@@ -766,4 +767,9 @@ h3 {
   flex-direction: column;
   gap: 20px;
   align-items: center;
+}
+
+.git > img {
+  width: 80%;
+  margin: auto;
 }
