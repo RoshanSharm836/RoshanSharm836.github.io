@@ -7,34 +7,6 @@ function Project() {
       <Heading title="Project" />
       <div className="Project" id="projects">
         <div>
-          {/* e-commerce */}
-          <Singleproject
-            name={"e-commerce-demo"}
-            ProjectLink={"https://zagnow-roshan.netlify.app/"}
-            ProjectImage={"./e_commerce.png"}
-            githubLink={"https://github.com/Roshanrocked/zagnow"}
-            discrip={
-              "It is an e-commerce website where users can select item form the website and buy.It has 3 part 1st is e_commerce, 2nd is form 3th is dashboard. "
-            }
-            techstack={[
-              "React",
-              "Html",
-              "CSS",
-              "JavaScript",
-              "Chart.js",
-              "Tailwindcss",
-            ]}
-            features={[
-              "Landing Page",
-              "SingleItem page",
-              "Cart page",
-              "Dashboard page",
-              "Form page",
-              "Filters",
-              "Pagination",
-              "Responsiveness",
-            ]}
-          />
           {/* pokedex */}
           <Singleproject
             name={"pokedex-demo"}
@@ -130,6 +102,34 @@ function Project() {
               "Following Page",
               "Comment's section",
               "Like's section",
+              "Responsiveness",
+            ]}
+          />{" "}
+          {/* e-commerce */}
+          <Singleproject
+            name={"e-commerce-demo"}
+            ProjectLink={"https://zagnow-roshan.netlify.app/"}
+            ProjectImage={"./e_commerce.png"}
+            githubLink={"https://github.com/Roshanrocked/zagnow"}
+            discrip={
+              "It is an e-commerce website where users can select item form the website and buy.It has 3 part 1st is e_commerce, 2nd is form 3th is dashboard. "
+            }
+            techstack={[
+              "React",
+              "Html",
+              "CSS",
+              "JavaScript",
+              "Chart.js",
+              "Tailwindcss",
+            ]}
+            features={[
+              "Landing Page",
+              "SingleItem page",
+              "Cart page",
+              "Dashboard page",
+              "Form page",
+              "Filters",
+              "Pagination",
               "Responsiveness",
             ]}
           />
